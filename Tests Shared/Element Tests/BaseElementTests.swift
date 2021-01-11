@@ -55,12 +55,12 @@ class BaseElementTests: XCTestCase {
 
     func elementType(at index: Int) -> String {
         let element = self.elements[index]
-        return element.elementType ?? ""
+        return element.elementType
     }
 
     func elementText(at index: Int) -> String {
         let element = self.elements[index]
-        return element.elementText ?? ""
+        return element.elementText
     }
 
     func sectionDepthOfElement(at index: Int) -> Int {

@@ -27,11 +27,10 @@ open class FNElement {
     open var isCentered = false
     open var sceneNumber: String? = nil
     open var sectionDepth: Int = 0
-    open var elementType: String?
-    open var elementText: String?
+    open var elementType: String
+    open var elementText: String
 
-    public convenience init(type: String, text: String) {
-        self.init()
+    public init(type: String, text: String) {
         self.elementType = type
         self.elementText = text
     }
@@ -41,15 +40,15 @@ open class FNElement {
         var typeOutput = self.elementType
 
         if (self.isCentered) {
-            typeOutput?.append(" (centered)")
+            typeOutput.append(" (centered)")
         }
         else if self.isDualDialogue {
-            typeOutput?.append(" (dual dialogue)")
+            typeOutput.append(" (dual dialogue)")
         }
         else if self.sectionDepth != 0 {
-            typeOutput?.append(" (\(self.sectionDepth))")
+            typeOutput.append(" (\(self.sectionDepth))")
         }
 
-        return "\(typeOutput ?? ""): \(textOutput ?? "")"
+        return "\(typeOutput): \(textOutput)"
     }
 }
