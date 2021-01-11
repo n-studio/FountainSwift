@@ -213,13 +213,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		345848DD25ACD13B001970FB /* FountainSwift */ = {
+			isa = PBXGroup;
+			children = (
+				34C1F00125ABC5DE00BD6C63 /* FNScript.swift */,
+				34C1F03225ABC81800BD6C63 /* FNElement.swift */,
+				34C1F04425ABC9FD00BD6C63 /* FastFountainParser.swift */,
+				34C1F04D25AC72B900BD6C63 /* Regex.swift */,
+			);
+			path = FountainSwift;
+			sourceTree = "<group>";
+		};
 		34C1EFB125ABC43C00BD6C63 = {
 			isa = PBXGroup;
 			children = (
 				34C1EFF925ABC52D00BD6C63 /* Package.swift */,
 				34C1EFFA25ABC53800BD6C63 /* README.md */,
 				34C1EFFB25ABC56900BD6C63 /* LICENSE */,
-				34C1F00025ABC5B300BD6C63 /* FountainSwift */,
+				34C1F00025ABC5B300BD6C63 /* Sources */,
 				34C1EFB625ABC43C00BD6C63 /* Shared */,
 				34C1EFC025ABC43F00BD6C63 /* iOS */,
 				34C1EFC725ABC43F00BD6C63 /* macOS */,
@@ -286,15 +297,12 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
-		34C1F00025ABC5B300BD6C63 /* FountainSwift */ = {
+		34C1F00025ABC5B300BD6C63 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				34C1F00125ABC5DE00BD6C63 /* FNScript.swift */,
-				34C1F03225ABC81800BD6C63 /* FNElement.swift */,
-				34C1F04425ABC9FD00BD6C63 /* FastFountainParser.swift */,
-				34C1F04D25AC72B900BD6C63 /* Regex.swift */,
+				345848DD25ACD13B001970FB /* FountainSwift */,
 			);
-			path = FountainSwift;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		34C1F01025ABC61A00BD6C63 /* Tests Shared */ = {

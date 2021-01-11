@@ -51,7 +51,7 @@ class BigFishTests: XCTestCase {
         for index in indexes {
             let element = self.script.elements[index]
 
-            XCTAssertEqual(element.elementType, "Scene Heading", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Scene Heading", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
@@ -59,7 +59,7 @@ class BigFishTests: XCTestCase {
         let indexes = [6, 9, 13, 19, 39]
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Character", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Character", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
@@ -68,7 +68,7 @@ class BigFishTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Dialogue", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Dialogue", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
@@ -77,7 +77,7 @@ class BigFishTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Parenthetical", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Parenthetical", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
@@ -86,7 +86,7 @@ class BigFishTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Transition", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Transition", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
@@ -95,7 +95,7 @@ class BigFishTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Page Break", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Page Break", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
@@ -104,7 +104,7 @@ class BigFishTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Action", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Action", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 

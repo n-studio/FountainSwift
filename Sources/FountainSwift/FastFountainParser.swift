@@ -192,7 +192,7 @@ class FastFountainParser {
                 let previousElement = self.elements[lastIndex]
 
                 if previousElement.elementType == "Dialogue" {
-                    let text = String(format: "%@\n%@", previousElement.elementText ?? "", line)
+                    let text = String(format: "%@\n%@", previousElement.elementText, line)
                     previousElement.elementText = text;
                     self.elements.remove(at: lastIndex)
                     self.elements.append(previousElement)
@@ -397,7 +397,7 @@ class FastFountainParser {
 
                         if line ~= "\\^\\s*$" {
                             element.isDualDialogue = true
-                            element.elementText = element.elementText?.replace(pattern: "\\s*\\^\\s*$", with: "")
+                            element.elementText = element.elementText.replace(pattern: "\\s*\\^\\s*$", with: "")
                             var foundPreviousCharacter = false
                             var index = self.elements.count - 1
                             while ((index >= 0) && !foundPreviousCharacter) {
@@ -430,7 +430,7 @@ class FastFountainParser {
                     let lastIndex = self.elements.count - 1
                     let previousElement = self.elements[lastIndex]
                     if previousElement.elementType == "Dialogue" {
-                        let text = String(format: "%@\n%@", previousElement.elementText ?? "", line)
+                        let text = String(format: "%@\n%@", previousElement.elementText, line)
                         previousElement.elementText = text;
                         self.elements.remove(at: lastIndex)
                         self.elements.append(previousElement)
@@ -453,7 +453,7 @@ class FastFountainParser {
                     previousElement.elementType = "Action"
                 }
 
-                let text = String(format: "%@\n%@", previousElement.elementText ?? "", line)
+                let text = String(format: "%@\n%@", previousElement.elementText, line)
                 previousElement.elementText = text
                 self.elements.remove(at: lastIndex)
                 self.elements.append(previousElement)

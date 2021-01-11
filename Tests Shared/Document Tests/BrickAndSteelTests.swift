@@ -51,7 +51,7 @@ class BrickAndSteelTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Scene Heading", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Scene Heading", "Index \(index): [\(element.elementType))] \(element.elementText ))")
         }
     }
 
@@ -60,7 +60,7 @@ class BrickAndSteelTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Character", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Character", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
@@ -69,7 +69,7 @@ class BrickAndSteelTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Dialogue", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Dialogue", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
@@ -78,7 +78,7 @@ class BrickAndSteelTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Parenthetical", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Parenthetical", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
@@ -87,7 +87,7 @@ class BrickAndSteelTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Transition", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Transition", "Index \(index): [\(element.elementType))] \(element.elementText ))")
         }
     }
 
@@ -96,7 +96,7 @@ class BrickAndSteelTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertEqual(element.elementType, "Action", "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertEqual(element.elementType, "Action", "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
@@ -105,7 +105,7 @@ class BrickAndSteelTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertTrue(element.isCentered, "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))");
+            XCTAssertTrue(element.isCentered, "Index \(index): [\(element.elementType))] \(element.elementText))");
         }
     }
 
@@ -114,7 +114,7 @@ class BrickAndSteelTests: XCTestCase {
 
         for index in indexes {
             let element = self.script.elements[index]
-            XCTAssertTrue(element.isDualDialogue, "Index \(index): [\(element.elementType ?? ""))] \(element.elementText ?? ""))")
+            XCTAssertTrue(element.isDualDialogue, "Index \(index): [\(element.elementType))] \(element.elementText))")
         }
     }
 
