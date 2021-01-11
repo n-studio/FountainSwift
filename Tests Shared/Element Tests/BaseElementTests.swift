@@ -50,7 +50,7 @@ class BaseElementTests: XCTestCase {
     func loadTestFile(_ filename: String) {
         let path = self.pathForFile(filename)
         let parser = FastFountainParser(file: path)
-        self.elements = Array(parser.elements)
+        self.elements = parser.elements
     }
 
     func elementType(at index: Int) -> String {
