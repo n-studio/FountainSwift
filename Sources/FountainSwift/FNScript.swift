@@ -30,12 +30,12 @@ open class FNScript {
     open var titlePage: [[String: [String]]] = []
     open var suppressSceneNumbers: Bool
 
-    convenience init(file path: String) {
+    public convenience init(file path: String) {
         self.init()
         self.loadFile(path)
     }
 
-    convenience init(string: String) {
+    public convenience init(string: String) {
         self.init()
         self.loadString(string)
     }

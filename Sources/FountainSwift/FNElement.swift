@@ -30,13 +30,13 @@ open class FNElement {
     open var elementType: String?
     open var elementText: String?
 
-    convenience init(type: String, text: String) {
+    public convenience init(type: String, text: String) {
         self.init()
         self.elementType = type
         self.elementText = text
     }
 
-    func description() -> String {
+    public func description() -> String {
         let textOutput = self.elementText
         var typeOutput = self.elementType
 
