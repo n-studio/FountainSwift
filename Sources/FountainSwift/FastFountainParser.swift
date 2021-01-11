@@ -25,8 +25,8 @@
 import Foundation
 
 internal enum FastFountainParserPattern: String {
-    case inlinePattern = "^([^\\t\\s][^:]+):\\s*([^\\t\\s].*$)"
-    case directivePattern = "^([^\\t\\s][^:]+):([\\t\\s]*$)"
+    case inlinePattern = "^([^\\t\\s][^:\\[{2}]+):\\s*([^\\t\\s].*$)"
+    case directivePattern = "^([^\\t\\s][^:\\[{2}]+):([\\t\\s]*$)"
     case contentPattern = ""
 }
 

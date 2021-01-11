@@ -35,8 +35,13 @@ class NoteTests: BaseElementTests {
 
     // MARK: - Tests
 
-    func testSingleLineNote() {
+    func testNoteWithColumnInTitlePage() {
         let index = 0
+        XCTAssertEqual(self.elementType(at: index), "Comment", self.errorForElement(at: index))
+    }
+
+    func testSingleLineNote() {
+        let index = 1
         XCTAssertEqual(self.elementType(at: index), "Comment", self.errorForElement(at: index))
     }
 }
