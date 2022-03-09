@@ -34,8 +34,8 @@ class FastFountainParser {
     var elements: [FNElement] = []
     var titlePage: [[String: [String]]] = []
 
-    init(string: String) {
-        self.parseContents(string)
+    init(string: String, withHeaders: Bool = true) {
+        self.parseContents(string, withHeaders: withHeaders)
     }
 
     init(file path: String) {
@@ -48,7 +48,7 @@ class FastFountainParser {
         }
     }
 
-    func parseContents(_ contents: String) {
+    func parseContents(_ contents: String, withHeaders: Bool = true) {
         var contents: String = contents
         // Trim leading newlines from the document
         contents = contents.replace(pattern: "^\\s*", with: "")
@@ -57,7 +57,7 @@ class FastFountainParser {
 
         // Find the first newline
         let topOfDocument: String
-        if let firstBlankLineRange = contents.range(of: "\n\n") {
+        if let firstBlankLineRange = contents.range(of: "\n\n"), withHeaders == true {
             topOfDocument = String(contents[..<firstBlankLineRange.lowerBound])
         }
         else {

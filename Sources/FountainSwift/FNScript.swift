@@ -35,9 +35,9 @@ open class FNScript {
         self.loadFile(path)
     }
 
-    public convenience init(string: String) {
+    public convenience init(string: String, withHeaders: Bool = true) {
         self.init()
-        self.loadString(string)
+        self.loadString(string, withHeaders: withHeaders)
     }
 
     init() {
@@ -51,9 +51,9 @@ open class FNScript {
         self.titlePage = parser.titlePage
     }
 
-    func loadString(_ string: String) {
+    func loadString(_ string: String, withHeaders: Bool = true) {
         self.filename = nil
-        let parser = FastFountainParser(string: string)
+        let parser = FastFountainParser(string: string, withHeaders: withHeaders)
         self.elements = parser.elements
         self.titlePage = parser.titlePage
     }
