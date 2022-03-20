@@ -146,6 +146,18 @@ class BigFishTests: XCTestCase {
         XCTAssertEqual(noteValue, "FINAL PRODUCTION DRAFT")
     }
 
+    func testHTML() {
+        let actualHTML = FNHTMLScript(script: self.script).html()
+
+        let bundle = Bundle(for: BigFishTests.self)
+        let path = bundle.path(forResource: "Big Fish", ofType: "html")!
+        let expectedHTML = try! String(contentsOfFile: path)
+
+        NSLog("\(actualHTML)")
+
+        XCTAssertEqual(actualHTML, expectedHTML)
+    }
+
     static var allTests = [
         ("testScriptLoading", testScriptLoading),
     ]

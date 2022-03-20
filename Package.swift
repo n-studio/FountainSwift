@@ -26,7 +26,8 @@ let package = Package(
             name: "FountainSwift",
             dependencies: [],
             path: "Sources/FountainSwift",
-            sources: ["FNScript.swift", "FNElement.swift", "FastFountainParser.swift", "Regex.swift"]
+            sources: ["FNScript.swift", "FNElement.swift", "FastFountainParser.swift", "Regex.swift", "FNHTMLScript.swift", "FNPaginator.swift", "Font.swift"],
+            resources: [.process("ScriptCSS.css")]
         ),
     ]
 )
