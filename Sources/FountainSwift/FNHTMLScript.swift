@@ -75,7 +75,7 @@ open class FNHTMLScript {
             css = try String(contentsOf: url)
         }
         catch {
-            NSLog("Couldn't read CSS at \(url.debugDescription)")
+            NSLog("Couldn't read CSS at %@", url.description)
             css = ""
         }
         return css

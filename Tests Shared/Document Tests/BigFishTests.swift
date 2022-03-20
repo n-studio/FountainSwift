@@ -153,8 +153,6 @@ class BigFishTests: XCTestCase {
         let path = bundle.path(forResource: "Big Fish", ofType: "html")!
         let expectedHTML = try! String(contentsOfFile: path)
 
-        NSLog("\(actualHTML)")
-
         XCTAssertEqual(actualHTML, expectedHTML)
     }
 
