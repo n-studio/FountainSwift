@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3487AB9427E5CF1800FB51B6 /* ScriptCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 3487AB9327E5CF1800FB51B6 /* ScriptCSS.css */; };
+		3487AB9527E5CF1800FB51B6 /* ScriptCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 3487AB9327E5CF1800FB51B6 /* ScriptCSS.css */; };
+		3487AB9627E5CF1800FB51B6 /* ScriptCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 3487AB9327E5CF1800FB51B6 /* ScriptCSS.css */; };
+		3487AB9727E5CF1800FB51B6 /* ScriptCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 3487AB9327E5CF1800FB51B6 /* ScriptCSS.css */; };
+		3487AB9927E5CF4300FB51B6 /* FNHTMLScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487AB9827E5CF4300FB51B6 /* FNHTMLScript.swift */; };
+		3487AB9A27E5CF4300FB51B6 /* FNHTMLScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487AB9827E5CF4300FB51B6 /* FNHTMLScript.swift */; };
+		3487AB9B27E5CF4300FB51B6 /* FNHTMLScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487AB9827E5CF4300FB51B6 /* FNHTMLScript.swift */; };
+		3487AB9C27E5CF4300FB51B6 /* FNHTMLScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487AB9827E5CF4300FB51B6 /* FNHTMLScript.swift */; };
+		3487AB9E27E5CF7600FB51B6 /* FNPaginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487AB9D27E5CF7600FB51B6 /* FNPaginator.swift */; };
+		3487AB9F27E5CF7600FB51B6 /* FNPaginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487AB9D27E5CF7600FB51B6 /* FNPaginator.swift */; };
+		3487ABA027E5CF7600FB51B6 /* FNPaginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487AB9D27E5CF7600FB51B6 /* FNPaginator.swift */; };
+		3487ABA127E5CF7600FB51B6 /* FNPaginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487AB9D27E5CF7600FB51B6 /* FNPaginator.swift */; };
+		3487ABA327E5DD2600FB51B6 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487ABA227E5DD2600FB51B6 /* Font.swift */; };
+		3487ABA427E5DD2600FB51B6 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487ABA227E5DD2600FB51B6 /* Font.swift */; };
+		3487ABA527E5DD2600FB51B6 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487ABA227E5DD2600FB51B6 /* Font.swift */; };
+		3487ABA627E5DD2600FB51B6 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487ABA227E5DD2600FB51B6 /* Font.swift */; };
+		34A4C88827E6DC3100A1ED51 /* Big Fish.html in Resources */ = {isa = PBXBuildFile; fileRef = 34A4C88727E6DC3100A1ED51 /* Big Fish.html */; };
+		34A4C88927E6DC3100A1ED51 /* Big Fish.html in Resources */ = {isa = PBXBuildFile; fileRef = 34A4C88727E6DC3100A1ED51 /* Big Fish.html */; };
 		34C1EFD325ABC43F00BD6C63 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C1EFD225ABC43F00BD6C63 /* Tests_iOS.swift */; };
 		34C1EFDE25ABC43F00BD6C63 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C1EFDD25ABC43F00BD6C63 /* Tests_macOS.swift */; };
 		34C1EFE025ABC43F00BD6C63 /* FountainSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C1EFB725ABC43C00BD6C63 /* FountainSwiftApp.swift */; };
@@ -123,6 +141,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3487AB9327E5CF1800FB51B6 /* ScriptCSS.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ScriptCSS.css; sourceTree = "<group>"; };
+		3487AB9827E5CF4300FB51B6 /* FNHTMLScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FNHTMLScript.swift; sourceTree = "<group>"; };
+		3487AB9D27E5CF7600FB51B6 /* FNPaginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FNPaginator.swift; sourceTree = "<group>"; };
+		3487ABA227E5DD2600FB51B6 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		34A4C88727E6DC3100A1ED51 /* Big Fish.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "Big Fish.html"; sourceTree = "<group>"; };
 		34C1EFB725ABC43C00BD6C63 /* FountainSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FountainSwiftApp.swift; sourceTree = "<group>"; };
 		34C1EFB825ABC43C00BD6C63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34C1EFB925ABC43F00BD6C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -216,10 +239,14 @@
 		345848DD25ACD13B001970FB /* FountainSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3487ABA227E5DD2600FB51B6 /* Font.swift */,
 				34C1F00125ABC5DE00BD6C63 /* FNScript.swift */,
 				34C1F03225ABC81800BD6C63 /* FNElement.swift */,
 				34C1F04425ABC9FD00BD6C63 /* FastFountainParser.swift */,
 				34C1F04D25AC72B900BD6C63 /* Regex.swift */,
+				3487AB9827E5CF4300FB51B6 /* FNHTMLScript.swift */,
+				3487AB9D27E5CF7600FB51B6 /* FNPaginator.swift */,
+				3487AB9327E5CF1800FB51B6 /* ScriptCSS.css */,
 			);
 			path = FountainSwift;
 			sourceTree = "<group>";
@@ -320,6 +347,7 @@
 			children = (
 				34C1F08C25AC9E4000BD6C63 /* Element specific */,
 				34C1F01D25ABC67700BD6C63 /* Big Fish.fountain */,
+				34A4C88727E6DC3100A1ED51 /* Big Fish.html */,
 				34C1F06725AC820200BD6C63 /* Brick And Steel.txt */,
 				34C1F13925ACAFEF00BD6C63 /* Sections-Complex.fountain */,
 				34C1F13A25ACAFEF00BD6C63 /* Simple.fountain */,
@@ -505,6 +533,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3487AB9427E5CF1800FB51B6 /* ScriptCSS.css in Resources */,
 				34C1F06825AC820200BD6C63 /* Brick And Steel.txt in Resources */,
 				34C1EFE425ABC43F00BD6C63 /* Assets.xcassets in Resources */,
 			);
@@ -514,6 +543,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3487AB9527E5CF1800FB51B6 /* ScriptCSS.css in Resources */,
 				34C1F06925AC820200BD6C63 /* Brick And Steel.txt in Resources */,
 				34C1EFE525ABC43F00BD6C63 /* Assets.xcassets in Resources */,
 			);
@@ -524,6 +554,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C1F0C025AC9EA400BD6C63 /* Indenting.fountain in Resources */,
+				3487AB9627E5CF1800FB51B6 /* ScriptCSS.css in Resources */,
 				34C1F0BE25AC9EA400BD6C63 /* SceneHeaders.fountain in Resources */,
 				34C1F06A25AC820200BD6C63 /* Brick And Steel.txt in Resources */,
 				34C1F0AE25AC9EA400BD6C63 /* ForcedElements.fountain in Resources */,
@@ -534,6 +565,7 @@
 				34C1F0A825AC9EA400BD6C63 /* Transitions.fountain in Resources */,
 				34C1F13D25ACAFEF00BD6C63 /* Simple.fountain in Resources */,
 				34C1F0A625AC9EA400BD6C63 /* SectionHeaders.fountain in Resources */,
+				34A4C88827E6DC3100A1ED51 /* Big Fish.html in Resources */,
 				34C1F13B25ACAFEF00BD6C63 /* Sections-Complex.fountain in Resources */,
 				34C1F0B425AC9EA400BD6C63 /* Synopses.fountain in Resources */,
 				34C1F0B025AC9EA400BD6C63 /* CenteredText.fountain in Resources */,
@@ -549,6 +581,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C1F0C125AC9EA400BD6C63 /* Indenting.fountain in Resources */,
+				3487AB9727E5CF1800FB51B6 /* ScriptCSS.css in Resources */,
 				34C1F0BF25AC9EA400BD6C63 /* SceneHeaders.fountain in Resources */,
 				34C1F06B25AC820200BD6C63 /* Brick And Steel.txt in Resources */,
 				34C1F0AF25AC9EA400BD6C63 /* ForcedElements.fountain in Resources */,
@@ -559,6 +592,7 @@
 				34C1F0A925AC9EA400BD6C63 /* Transitions.fountain in Resources */,
 				34C1F13E25ACAFEF00BD6C63 /* Simple.fountain in Resources */,
 				34C1F0A725AC9EA400BD6C63 /* SectionHeaders.fountain in Resources */,
+				34A4C88927E6DC3100A1ED51 /* Big Fish.html in Resources */,
 				34C1F13C25ACAFEF00BD6C63 /* Sections-Complex.fountain in Resources */,
 				34C1F0B525AC9EA400BD6C63 /* Synopses.fountain in Resources */,
 				34C1F0B125AC9EA400BD6C63 /* CenteredText.fountain in Resources */,
@@ -576,10 +610,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3487AB9927E5CF4300FB51B6 /* FNHTMLScript.swift in Sources */,
 				34C1F04525ABC9FD00BD6C63 /* FastFountainParser.swift in Sources */,
 				34C1F03325ABC81800BD6C63 /* FNElement.swift in Sources */,
 				34C1EFE225ABC43F00BD6C63 /* ContentView.swift in Sources */,
 				34C1F00225ABC5DE00BD6C63 /* FNScript.swift in Sources */,
+				3487ABA327E5DD2600FB51B6 /* Font.swift in Sources */,
+				3487AB9E27E5CF7600FB51B6 /* FNPaginator.swift in Sources */,
 				34C1EFE025ABC43F00BD6C63 /* FountainSwiftApp.swift in Sources */,
 				34C1F04E25AC72B900BD6C63 /* Regex.swift in Sources */,
 			);
@@ -589,10 +626,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3487AB9A27E5CF4300FB51B6 /* FNHTMLScript.swift in Sources */,
 				34C1F04625ABC9FD00BD6C63 /* FastFountainParser.swift in Sources */,
 				34C1F03425ABC81800BD6C63 /* FNElement.swift in Sources */,
 				34C1EFE325ABC43F00BD6C63 /* ContentView.swift in Sources */,
 				34C1F00B25ABC5E200BD6C63 /* FNScript.swift in Sources */,
+				3487ABA427E5DD2600FB51B6 /* Font.swift in Sources */,
+				3487AB9F27E5CF7600FB51B6 /* FNPaginator.swift in Sources */,
 				34C1EFE125ABC43F00BD6C63 /* FountainSwiftApp.swift in Sources */,
 				34C1F04F25AC72B900BD6C63 /* Regex.swift in Sources */,
 			);
@@ -605,9 +645,11 @@
 				34C1F0FF25ACA62100BD6C63 /* PageBreakTests.swift in Sources */,
 				34C1F04725ABC9FD00BD6C63 /* FastFountainParser.swift in Sources */,
 				34C1F0D325AC9F8A00BD6C63 /* SceneHeaderTests.swift in Sources */,
+				3487AB9B27E5CF4300FB51B6 /* FNHTMLScript.swift in Sources */,
 				34C1F07725AC9A8E00BD6C63 /* MultilineActionTests.swift in Sources */,
 				34C1F0EB25ACA62100BD6C63 /* NoteTests.swift in Sources */,
 				34C1F05925AC7ED800BD6C63 /* BrickAndSteelTests.swift in Sources */,
+				3487ABA527E5DD2600FB51B6 /* Font.swift in Sources */,
 				34C1F0F125ACA62100BD6C63 /* SceneNumberTests.swift in Sources */,
 				34C1F0ED25ACA62100BD6C63 /* SectionAndSynopsisTests.swift in Sources */,
 				34C1F0F725ACA62100BD6C63 /* BoneyardTests.swift in Sources */,
@@ -622,6 +664,7 @@
 				34C1F0F925ACA62100BD6C63 /* SectionHeaderTests.swift in Sources */,
 				34C1F0E925ACA62100BD6C63 /* CenteredTests.swift in Sources */,
 				34C1F0F325ACA62100BD6C63 /* IndentingTests.swift in Sources */,
+				3487ABA027E5CF7600FB51B6 /* FNPaginator.swift in Sources */,
 				34C1F0FB25ACA62100BD6C63 /* TransitionTests.swift in Sources */,
 				34C1F0EF25ACA62100BD6C63 /* SynopsisTests.swift in Sources */,
 			);
@@ -634,9 +677,11 @@
 				34C1F10025ACA62100BD6C63 /* PageBreakTests.swift in Sources */,
 				34C1F04825ABC9FD00BD6C63 /* FastFountainParser.swift in Sources */,
 				34C1F0D425AC9F8A00BD6C63 /* SceneHeaderTests.swift in Sources */,
+				3487AB9C27E5CF4300FB51B6 /* FNHTMLScript.swift in Sources */,
 				34C1F07825AC9A8E00BD6C63 /* MultilineActionTests.swift in Sources */,
 				34C1F0EC25ACA62100BD6C63 /* NoteTests.swift in Sources */,
 				34C1F05A25AC7ED800BD6C63 /* BrickAndSteelTests.swift in Sources */,
+				3487ABA627E5DD2600FB51B6 /* Font.swift in Sources */,
 				34C1F0F225ACA62100BD6C63 /* SceneNumberTests.swift in Sources */,
 				34C1F0EE25ACA62100BD6C63 /* SectionAndSynopsisTests.swift in Sources */,
 				34C1F0F825ACA62100BD6C63 /* BoneyardTests.swift in Sources */,
@@ -651,6 +696,7 @@
 				34C1F0FA25ACA62100BD6C63 /* SectionHeaderTests.swift in Sources */,
 				34C1F0EA25ACA62100BD6C63 /* CenteredTests.swift in Sources */,
 				34C1F0F425ACA62100BD6C63 /* IndentingTests.swift in Sources */,
+				3487ABA127E5CF7600FB51B6 /* FNPaginator.swift in Sources */,
 				34C1F0FC25ACA62100BD6C63 /* TransitionTests.swift in Sources */,
 				34C1F0F025ACA62100BD6C63 /* SynopsisTests.swift in Sources */,
 			);
@@ -929,7 +975,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.solfanto.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -952,7 +998,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.solfanto.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
