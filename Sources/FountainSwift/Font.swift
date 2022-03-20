@@ -8,7 +8,7 @@
 import Foundation
 
 #if os(macOS)
-import Cocoa
+import AppKit
 typealias Font = NSFont
 #else
 import UIKit
